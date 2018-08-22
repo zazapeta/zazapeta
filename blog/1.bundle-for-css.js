@@ -232,13 +232,13 @@ webpackJsonp([1],{
 
 	var _github2 = _interopRequireDefault(_github);
 
-	var _facebook = __webpack_require__(515);
-
-	var _facebook2 = _interopRequireDefault(_facebook);
-
-	var _twitter = __webpack_require__(516);
+	var _twitter = __webpack_require__(515);
 
 	var _twitter2 = _interopRequireDefault(_twitter);
+
+	var _linkedin = __webpack_require__(516);
+
+	var _linkedin2 = _interopRequireDefault(_linkedin);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -273,7 +273,7 @@ webpackJsonp([1],{
 	  var items = _config2.default.authorSocialLinks;
 	  var icons = {
 	    twitter: _twitter2.default,
-	    facebook: _facebook2.default,
+	    linkedin: _linkedin2.default,
 	    github: _github2.default
 	  };
 
@@ -332,17 +332,17 @@ webpackJsonp([1],{
 
 	var React = __webpack_require__(1);
 
-	function FacebookIcon (props) {
-	    return React.createElement("svg",props,React.createElement("path",{"d":"M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"}));
+	function TwitterIcon (props) {
+	    return React.createElement("svg",props,React.createElement("path",{"d":"M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"}));
 	}
 
-	FacebookIcon.displayName = "FacebookIcon";
+	TwitterIcon.displayName = "TwitterIcon";
 
-	FacebookIcon.defaultProps = {"viewBox":"0 0 512 512"};
+	TwitterIcon.defaultProps = {"viewBox":"0 0 512 512"};
 
-	module.exports = FacebookIcon;
+	module.exports = TwitterIcon;
 
-	FacebookIcon.default = FacebookIcon;
+	TwitterIcon.default = TwitterIcon;
 
 
 /***/ }),
@@ -353,12 +353,12 @@ webpackJsonp([1],{
 	var React = __webpack_require__(1);
 
 	function TwitterIcon (props) {
-	    return React.createElement("svg",props,React.createElement("path",{"d":"M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"}));
+	    return React.createElement("svg",props,React.createElement("path",{"d":"M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"}));
 	}
 
 	TwitterIcon.displayName = "TwitterIcon";
 
-	TwitterIcon.defaultProps = {"viewBox":"0 0 512 512"};
+	TwitterIcon.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
 
 	module.exports = TwitterIcon;
 
@@ -832,7 +832,17 @@ webpackJsonp([1],{
 	  var classes = props.classes;
 
 
-	  var items = [{ name: "gatsby", url: "https://www.gatsbyjs.org/", comp: _gatsby2.default }, { name: "react", url: "https://reactjs.org/", comp: _react4.default }, { name: "graphql", url: "http://graphql.org/", comp: _graphql2.default }, { name: "jss", url: "http://cssinjs.org/", comp: _jss2.default }, { name: "material-ui", url: "https://material-ui-next.com/", comp: _materialUi2.default }, { name: "redux", url: "https://redux.js.org/", comp: _redux2.default }, { name: "algolia", url: "https://www.algolia.com/", comp: _algolia2.default }, { name: "webpack", url: "https://webpack.js.org/", comp: _webpack2.default }, { name: "babel", url: "https://babeljs.io/", comp: _babel2.default }, { name: "netlify", url: "https://www.netlify.com/", comp: _netlify2.default }];
+	  var items = [{ name: "gatsby", url: "https://www.gatsbyjs.org/", comp: _gatsby2.default
+	    // { name: "react", url: "https://reactjs.org/", comp: ReactIcon },
+	    // { name: "graphql", url: "http://graphql.org/", comp: GraphqlIcon },
+	    // { name: "jss", url: "http://cssinjs.org/", comp: JssIcon },
+	    // { name: "material-ui", url: "https://material-ui-next.com/", comp: MaterialUiIcon },
+	    // { name: "redux", url: "https://redux.js.org/", comp: ReduxIcon },
+	    // { name: "algolia", url: "https://www.algolia.com/", comp: AlgoliaIcon },
+	    // { name: "webpack", url: "https://webpack.js.org/", comp: WebpackIcon },
+	    // { name: "babel", url: "https://babeljs.io/", comp: BabelIcon },
+	    // { name: "netlify", url: "https://www.netlify.com/", comp: NetlifyIcon }
+	  }];
 
 	  return _react2.default.createElement(
 	    "div",
