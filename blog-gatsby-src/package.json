@@ -14,7 +14,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
-    "generate-app-icons": "sh ./scripts/generate-app-icons.sh"
+    "generate-app-icons": "sh ./scripts/generate-app-icons.sh",
+    "deploy": "rm -rf ../blog && mkdir ../blog && cp -r public/* ../blog/ && git add ../blog && git commit -m 'new version of blog' && git push"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
