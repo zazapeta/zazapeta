@@ -4,18 +4,18 @@ module.exports = {
   siteTitle: "Personal Blog", // <title>
   shortSiteTitle: "« scio me nihil scire »", // <title> ending for posts and pages
   siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
-  pathPrefix: "",
+  siteUrl: "https://sami.ghazouane.io",
+  pathPrefix: "/blog",
   siteImage: "preview.jpg",
   siteLanguage: "en|fr",
   // author
-  authorName: "sami ghazouane",
+  authorName: "Sami Ghazouane",
   authorTwitterAccount: "sami_ghazouane",
   // info
-  infoTitle: "sami ghazouane",
-  infoTitleNote: "personal blog",
+  infoTitle: "Sami Ghazouane",
+  infoTitleNote: "Personal Blog",
   // manifest.json
-  manifestName: "Personal Blog - Dev Blog",
+  manifestName: "Personal blog - Web dev & more",
   manifestShortName: "Personal Blog", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
@@ -27,6 +27,6 @@ module.exports = {
   authorSocialLinks: [
     { name: "github", url: "https://github.com/zazapeta" },
     { name: "twitter", url: "https://twitter.com/sami_ghazouane" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "linkedin", url: "https://www.linkedin.com/in/ghazouane" }
   ]
 };

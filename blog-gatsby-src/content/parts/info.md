@@ -2,4 +2,8 @@
 title: info
 ---
 
-I am a front-end web developer. I used to be a web designer also, but now I concentrate on the code.
+I am a developer.
+
+Daddy Surfer, Human Agilist | 📘 rx-react-store | Code ♥ Surf
+
+« scio me nihil scire ».
