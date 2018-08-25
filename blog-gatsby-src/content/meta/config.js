@@ -13,7 +13,7 @@ module.exports = {
   authorTwitterAccount: "sami_ghazouane",
   // info
   infoTitle: "Sami Ghazouane",
-  infoTitleNote: "Personal Blog",
+  infoTitleNote: "« scio me nihil scire »",
   // manifest.json
   manifestName: "Personal blog - Web dev & more",
   manifestShortName: "Personal Blog", // max 12 characters
