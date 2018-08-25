@@ -75,7 +75,7 @@ Well done. Just to resume what you did :
 
 If you forgot how to intall express, or what is a route... DAMN, kill yourself !
 
-If not, just read, and adapat the example to your new work env.
+If not, just read, and adapt the example to your new work env.
 The example has been adapted and simplified from [Evaporate example directory](https://github.com/TTLabs/EvaporateJS/blob/master/example/SigningExample-awsv4.js)
 
 ```js
