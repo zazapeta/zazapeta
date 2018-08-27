@@ -1,6 +1,6 @@
 ---
-title: How to make a good contact mail
-subTitle: The art of mail.
+title: 8 rules to mail them all
+subTitle: Or the art to send a mail to your futur employer.
 category: "career"
 cover: mail.jpeg
 ---
