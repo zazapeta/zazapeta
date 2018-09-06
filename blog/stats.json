@@ -13,8 +13,8 @@
       "path---surf-7ef42a7e03b2086069ec.js.map"
     ],
     "path---": [
-      "path----284d027c9581554f6be9.js",
-      "path----284d027c9581554f6be9.js.map"
+      "path----f36e43c2c00f4b72593e.js",
+      "path----f36e43c2c00f4b72593e.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-bab46d833833a7010317.js",
@@ -24,13 +24,17 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "path---how-to-make-a-good-contact-mail": [
+      "path---how-to-make-a-good-contact-mail-84afb23276c431b6ec9c.js",
+      "path---how-to-make-a-good-contact-mail-84afb23276c431b6ec9c.js.map"
+    ],
     "path---two-things-are-infinite": [
       "path---two-things-are-infinite-b1b4eb94225e5647ac44.js",
       "path---two-things-are-infinite-b1b4eb94225e5647ac44.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4e31aad9df634bb0b871.js",
-      "component---src-layouts-index-js-4e31aad9df634bb0b871.js.map"
+      "component---src-layouts-index-js-79b0604f4118205b4ac7.js",
+      "component---src-layouts-index-js-79b0604f4118205b4ac7.js.map"
     ],
     "path---index": [
       "path---index-206ac74de0d3aab26f03.js",
@@ -71,9 +75,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-8302a3c04aa1855f8669.js",
+      "app-fa401002a412a7adae4d.js",
       "build-js-styles.css",
-      "app-8302a3c04aa1855f8669.js.map",
+      "app-fa401002a412a7adae4d.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-page-template-js": [
