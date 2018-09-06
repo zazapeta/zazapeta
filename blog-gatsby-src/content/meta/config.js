@@ -1,9 +1,9 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "Personal Blog", // <title>
+  siteTitle: "Sami's blog - Web dev & more", // <title>
   shortSiteTitle: "« scio me nihil scire »", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
+  siteDescription: "Sami' s blog - Web dev & more",
   siteUrl: "https://sami.ghazouane.io",
   pathPrefix: "/blog",
   siteImage: "preview.jpg",
