@@ -63,7 +63,10 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #000000;
+  /* background: #f39c12; */
+background: rgb(215,180,90);
+background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
+  
   color: white;
 }
 header .container {
@@ -121,7 +124,7 @@ header .intro-text .skills {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: #f05135;
+  background-color: #775010;
 }
 .navbar a:focus {
   outline: none;
