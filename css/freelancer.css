@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden;
+  background: rgb(215,180,90);
+background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
 }
+
 p {
   font-size: 20px;
 }
@@ -147,7 +150,9 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #000000;
+  background: rgb(215,180,90);
+background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
+  /* background: #000000; */
   color: white;
 }
 section.success a,
@@ -165,6 +170,7 @@ section.success .social a {
   margin: 17px;
   color: white;
 }
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -173,18 +179,20 @@ section.success .social a {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#le_parc .le_parc-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#le_parc .le_parc-item .le_parc-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(0, 0, 0, 0.9);
+#le_parc .le_parc-item .le_parc-link .caption {
+  /* background: rgba(0, 0, 0, 0.9); */
+  background: rgb(215,180,90);
+background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -193,10 +201,10 @@ section.success .social a {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#le_parc .le_parc-item .le_parc-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#le_parc .le_parc-item .le_parc-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -206,18 +214,20 @@ section.success .social a {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#le_parc .le_parc-item .le_parc-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#le_parc .le_parc-item .le_parc-link .caption .caption-content h3,
+#le_parc .le_parc-item .le_parc-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#le_parc * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #le_parc
+ .le_parc
+-item {
     margin: 0 0 30px;
   }
 }
@@ -336,7 +346,7 @@ footer .footer-below {
 .scroll-top .btn:focus {
   outline: none;
 }
-.portfolio-modal .modal-content {
+.le_parc-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -346,17 +356,17 @@ footer .footer-below {
   padding: 100px 0;
   text-align: center;
 }
-.portfolio-modal .modal-content h2 {
+.le_parc-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
 }
-.portfolio-modal .modal-content img {
+.le_parc-modal .modal-content img {
   margin-bottom: 30px;
 }
-.portfolio-modal .modal-content .item-details {
+.le_parc-modal .modal-content .item-details {
   margin: 30px 0;
 }
-.portfolio-modal .close-modal {
+.le_parc-modal .close-modal {
   position: absolute;
   width: 75px;
   height: 75px;
@@ -365,10 +375,10 @@ footer .footer-below {
   right: 25px;
   cursor: pointer;
 }
-.portfolio-modal .close-modal:hover {
+.le_parc-modal .close-modal:hover {
   opacity: 0.3;
 }
-.portfolio-modal .close-modal .lr {
+.le_parc-modal .close-modal .lr {
   height: 75px;
   width: 1px;
   margin-left: 35px;
@@ -380,7 +390,7 @@ footer .footer-below {
   /* Safari and Chrome */
   z-index: 1051;
 }
-.portfolio-modal .close-modal .lr .rl {
+.le_parc-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
   background-color: #f05135;
@@ -391,7 +401,7 @@ footer .footer-below {
   /* Safari and Chrome */
   z-index: 1052;
 }
-.portfolio-modal .modal-backdrop {
+.le_parc-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
