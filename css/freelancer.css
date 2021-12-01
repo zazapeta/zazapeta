@@ -127,7 +127,7 @@ header .intro-text .skills {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: #775010;
+  background-color:rgb(48, 105, 48);
 }
 .navbar a:focus {
   outline: none;
