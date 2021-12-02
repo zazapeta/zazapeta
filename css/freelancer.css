@@ -165,7 +165,7 @@ section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
-  color: #f05135;
+  color: white;
   outline: none;
 }
 section.success .social {
