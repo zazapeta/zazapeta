@@ -144,7 +144,9 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+  
 }
+
 section h2 {
   margin: 0;
   font-size: 3em;
@@ -154,6 +156,9 @@ section.success {
 background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
   
   color: white;
+}
+section.white {
+  background-color: whitesmoke;
 }
 section.success a,
 section.success a:hover,
