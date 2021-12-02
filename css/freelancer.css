@@ -152,7 +152,7 @@ section h2 {
 section.success {
   background: rgb(215,180,90);
 background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
-  /* background: #000000; */
+  
   color: white;
 }
 section.success a,
@@ -179,51 +179,7 @@ section.success .social a {
     padding-top: 75px;
   }
 }
-#le_parc .le_parc-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-#le_parc .le_parc-item .le_parc-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-#le_parc .le_parc-item .le_parc-link .caption {
-  /* background: rgba(0, 0, 0, 0.9); */
-  background: rgb(215,180,90);
-background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#le_parc .le_parc-item .le_parc-link .caption:hover {
-  opacity: 1;
-}
-#le_parc .le_parc-item .le_parc-link .caption .caption-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#le_parc .le_parc-item .le_parc-link .caption .caption-content i {
-  margin-top: -12px;
-}
-#le_parc .le_parc-item .le_parc-link .caption .caption-content h3,
-#le_parc .le_parc-item .le_parc-link .caption .caption-content h4 {
-  margin: 0;
-}
-#le_parc * {
-  z-index: 2;
-}
+
 @media (min-width: 767px) {
   #le_parc
  .le_parc
@@ -345,63 +301,4 @@ footer .footer-below {
 }
 .scroll-top .btn:focus {
   outline: none;
-}
-.le_parc-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.le_parc-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.le_parc-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.le_parc-modal .modal-content .item-details {
-  margin: 30px 0;
-}
-.le_parc-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.le_parc-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.le_parc-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #f05135;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.le_parc-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #f05135;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
-.le_parc-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
 }
