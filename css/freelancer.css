@@ -175,6 +175,18 @@ section.success .social a {
   margin: 17px;
   color: white;
 }
+/* mise en forme tableau anniversaire */
+table {
+  margin: auto;
+  /* table-layout: fixed; */
+  width: 50;
+  border-collapse: collapse;
+  border : medium solid black;
+}
+td,tr,th {
+  border : thin solid black;
+  width : 50;
+}
 
 @media (max-width: 767px) {
   section {
@@ -307,3 +319,5 @@ footer .footer-below {
 .scroll-top .btn:focus {
   outline: none;
 }
+
+
