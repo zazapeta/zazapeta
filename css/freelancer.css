@@ -32,7 +32,11 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
+
+/*  */
+
+
+/* hr.star-light,
 hr.star-primary {
     padding: 0;
     border: none;
@@ -40,9 +44,10 @@ hr.star-primary {
     text-align: center;
     max-width: 250px;
     margin: 25px auto 30px;
-}
+} */
 
-hr.star-light:after,
+
+/* hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
     font-family: FontAwesome;
@@ -69,11 +74,7 @@ hr.star-primary {
 hr.star-primary:after {
     background-color: white;
     color: #f05135;
-}
-
-.img-centered {
-    margin: 0 auto;
-}
+} */
 
 header {
     text-align: center;
@@ -376,5 +377,5 @@ footer .footer-below {
 }
 
 .scroll-top .btn:focus {
-    & outline: none;
+    outline: none;
 }
