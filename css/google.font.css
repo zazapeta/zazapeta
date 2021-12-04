@@ -1,1 +1,20 @@
-@font-face{font-family:'Montserrat';font-style:normal;font-weight:400;src:local('Montserrat-Regular') , url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000}@font-face{font-family:'Montserrat';font-style:normal;font-weight:700;src:local('Montserrat-Bold') , url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Bold.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Black.ttf") format("ttf"), url("/fonts/Roboto/Roboto-BlackItalic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Bold.ttf") format("ttf"), url("/fonts/Roboto/Roboto-BoldItalic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-LightItalic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Medium.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Light.ttf") format("ttf"), url("/fonts/Roboto/Roboto-MediumItalic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Thin.ttf") format("ttf"), url("/fonts/Roboto/Roboto-ThinItalic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Italic.ttf") format("ttf"), url("/fonts/Roboto/Roboto-Light.ttf") format("ttf");
+}
