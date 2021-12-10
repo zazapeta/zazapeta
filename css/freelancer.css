@@ -181,10 +181,9 @@ section h2 {
 section.success {
     background-color: rgba(182, 69, 35, 1);
     background-image: url(../img/stickers_savane.png);
-    background: no-repeat center/100% url(../img/stickers_savane.png);
+    background: no-repeat bottom/100% url(../img/stickers_savane.png);
     margin: 0;
     /* background: rgb(215,180,90); */
-    /* background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%); */
     /* background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%); */
     color: white;
 }
