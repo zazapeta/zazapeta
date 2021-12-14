@@ -25,3 +25,6 @@ Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [
 
 ## local dev server
 python3 -m http.server 3000
+ouvrir terminal 
+placer dans dossier ou index.html
+lancer commande python3 -m http.server 3000
