@@ -214,28 +214,36 @@ section.success .social a {
 }
 
 
-/* mise en forme tableau anniversaire */
+/* mise en forme flex anniversaire */
 
-table {
+#flexanniversaire {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
     /* margin: auto; */
-    table-layout: fixed;
-    /* width: 50; */
-    /* border-collapse: collapse; */
-    /* border : medium solid black; */
-    background-color: green;
-}
-
-th {
     text-align: center;
-    /* font-weight: bold; */
+    margin: 8px;
 }
 
-td,
-tr,
-th {
-    /* border : medium solid black; */
-    /* width : 50; */
+.Anniversaire_Luzi {
+    background-color: green;
+    margin-block: 8px;
 }
+
+.Anniversaire_Maison_1 {
+    background-color: orangered;
+    margin-block: 8px;
+}
+
+.Anniversaire_Maison_2 {
+    background-color: blue;
+    margin-block: 8px;
+}
+
+
+/* mise en forme tableau anniversaire */
 
 @media (max-width: 767px) {
     section {
