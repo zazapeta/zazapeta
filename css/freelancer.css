@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
-    background: rgb(215, 180, 90);
-    background: radial-gradient(circle, rgba(215, 180, 90, 1) 0%, rgba(236, 99, 37, 1) 24%, rgba(182, 69, 35, 1) 80%, rgba(182, 69, 35, 1) 85%);
+    /* background: rgb(215, 180, 90); */
+    /* background: radial-gradient(circle, rgba(215, 180, 90, 1) 0%, rgba(236, 99, 37, 1) 24%, rgba(182, 69, 35, 1) 80%, rgba(182, 69, 35, 1) 85%); */
 }
 
 p {
@@ -180,9 +180,9 @@ section h2 {
 
 section.success {
     background-color: rgba(182, 69, 35, 1);
-    background-image: url(../img/stickers_savane.png);
-    background: no-repeat bottom/100% url(../img/stickers_savane.png);
-    margin: 0;
+    /* background-image: url(../img/stickers_savane.png); */
+    /* background: no-repeat bottom/100% url(../img/stickers_savane.png);
+    margin: 0; */
     /* background: rgb(215,180,90); */
     /* background: radial-gradient(circle, rgba(215,180,90,1) 0%, rgba(236,99,37,1) 24%, rgba(182,69,35,1) 80%, rgba(182,69,35,1) 85%); */
     color: white;
@@ -190,6 +190,9 @@ section.success {
 
 section.white {
     background-color: whitesmoke;
+    background-image: url(../img/liane.png);
+    background: no-repeat bottom/25% url(../img/liane.png);
+    background-position: top left;
 }
 
 section.success a,
@@ -324,7 +327,10 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: white;
+    color: red;
+    background-image: url(../img/stickers_savane.png);
+    background: no-repeat bottom/100% url(../img/stickers_savane.png);
+    margin: 0;
 }
 
 footer h3 {
@@ -334,6 +340,9 @@ footer h3 {
 footer .footer-above {
     padding-top: 50px;
     background-color: #775010;
+    background-image: url(../img/stickers_savane.png);
+    background: no-repeat bottom/5% url(../img/stickers_savane.png);
+    margin: 0;
 }
 
 footer .footer-col {
@@ -342,7 +351,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #775010;
+    background-color: black;
 }
 
 .btn-social {
