@@ -214,6 +214,25 @@ section.success .social a {
 }
 
 
+/* Mise en forme page intro */
+
+#flextopintro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    /* margin: auto; */
+    text-align: center;
+    margin: 8px;
+}
+
+.Formule_intro {
+    background-color: rgb(48, 105, 48);
+    margin: 8px O;
+}
+
+
 /* mise en forme flex anniversaire */
 
 #flexanniversaire {
