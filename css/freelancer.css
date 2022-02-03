@@ -254,6 +254,15 @@ section.success .social a {
     margin: 8px;
 }
 
+.anniversaire {
+    max-width: 40vw;
+    padding: 0 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+}
+
 .Anniversaire_Luzi {
     background-color: green;
     margin: 8px 0;
